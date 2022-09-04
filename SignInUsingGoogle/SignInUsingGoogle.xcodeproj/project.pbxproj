@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2000B69C28C4B51D0090697A /* LoginHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000B69B28C4B51D0090697A /* LoginHeader.swift */; };
+		2000B69E28C4B6760090697A /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000B69D28C4B6760090697A /* CustomTextfield.swift */; };
+		2000B6A028C4B83F0090697A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2000B69F28C4B83F0090697A /* CustomButton.swift */; };
 		203073D8282D0204006F7F26 /* SignInUsingGoogleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203073D7282D0204006F7F26 /* SignInUsingGoogleApp.swift */; };
 		203073DA282D0204006F7F26 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203073D9282D0204006F7F26 /* LoginScreen.swift */; };
 		203073DC282D0205006F7F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203073DB282D0205006F7F26 /* Assets.xcassets */; };
 		203073DF282D0205006F7F26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203073DE282D0205006F7F26 /* Preview Assets.xcassets */; };
 		203073E7282D023E006F7F26 /* GoogleSiginBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203073E6282D023E006F7F26 /* GoogleSiginBtn.swift */; };
 		203073EA282D02C7006F7F26 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203073E9282D02C7006F7F26 /* Home.swift */; };
+		20CE7107282D052000817D34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20CE7106282D052000817D34 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2000B69B28C4B51D0090697A /* LoginHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeader.swift; sourceTree = "<group>"; };
+		2000B69D28C4B6760090697A /* CustomTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfield.swift; sourceTree = "<group>"; };
+		2000B69F28C4B83F0090697A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		203073D4282D0204006F7F26 /* SignInUsingGoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInUsingGoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		203073D7282D0204006F7F26 /* SignInUsingGoogleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUsingGoogleApp.swift; sourceTree = "<group>"; };
 		203073D9282D0204006F7F26 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
@@ -23,6 +30,8 @@
 		203073DE282D0205006F7F26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		203073E6282D023E006F7F26 /* GoogleSiginBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSiginBtn.swift; sourceTree = "<group>"; };
 		203073E9282D02C7006F7F26 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		20CE7106282D052000817D34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		20CE710A282D05FE00817D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +64,12 @@
 		203073D6282D0204006F7F26 /* SignInUsingGoogle */ = {
 			isa = PBXGroup;
 			children = (
+				20CE710A282D05FE00817D34 /* Info.plist */,
 				203073E8282D025F006F7F26 /* Screen */,
 				203073E5282D020E006F7F26 /* View */,
 				203073D7282D0204006F7F26 /* SignInUsingGoogleApp.swift */,
 				203073DB282D0205006F7F26 /* Assets.xcassets */,
+				20CE7106282D052000817D34 /* GoogleService-Info.plist */,
 				203073DD282D0205006F7F26 /* Preview Content */,
 			);
 			path = SignInUsingGoogle;
@@ -76,6 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				203073E6282D023E006F7F26 /* GoogleSiginBtn.swift */,
+				2000B69B28C4B51D0090697A /* LoginHeader.swift */,
+				2000B69D28C4B6760090697A /* CustomTextfield.swift */,
+				2000B69F28C4B83F0090697A /* CustomButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -105,6 +119,8 @@
 			dependencies = (
 			);
 			name = SignInUsingGoogle;
+			packageProductDependencies = (
+			);
 			productName = SignInUsingGoogle;
 			productReference = 203073D4282D0204006F7F26 /* SignInUsingGoogle.app */;
 			productType = "com.apple.product-type.application";
@@ -133,6 +149,8 @@
 				Base,
 			);
 			mainGroup = 203073CB282D0204006F7F26;
+			packageReferences = (
+			);
 			productRefGroup = 203073D5282D0204006F7F26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -149,6 +167,7 @@
 			files = (
 				203073DF282D0205006F7F26 /* Preview Assets.xcassets in Resources */,
 				203073DC282D0205006F7F26 /* Assets.xcassets in Resources */,
+				20CE7107282D052000817D34 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,9 +179,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				203073DA282D0204006F7F26 /* LoginScreen.swift in Sources */,
+				2000B6A028C4B83F0090697A /* CustomButton.swift in Sources */,
 				203073D8282D0204006F7F26 /* SignInUsingGoogleApp.swift in Sources */,
 				203073EA282D02C7006F7F26 /* Home.swift in Sources */,
+				2000B69C28C4B51D0090697A /* LoginHeader.swift in Sources */,
 				203073E7282D023E006F7F26 /* GoogleSiginBtn.swift in Sources */,
+				2000B69E28C4B6760090697A /* CustomTextfield.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +316,7 @@
 				DEVELOPMENT_TEAM = RW9GMW82XW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SignInUsingGoogle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -323,6 +346,7 @@
 				DEVELOPMENT_TEAM = RW9GMW82XW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SignInUsingGoogle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

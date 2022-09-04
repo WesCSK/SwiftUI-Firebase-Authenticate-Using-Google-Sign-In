@@ -1,6 +1,14 @@
 # How to setup Firebase Google Sign In with SwiftUI?
 This repo provide you with the complete setup of Firebase google sign in with SwiftUI as the <a href="https://firebase.google.com/docs/auth/ios/google-signin">Official Docuementation</a> step is used for UIKit as example and missed out some key steps that is required for SwiftUI implementation. You can also watch the following video on <a href="">YouTube</a> which will also provide you with step by step guide on how to step up this.
 
+## What will you be building
+
+You will be building the functionality to login use Goole. Below is the screen.
+
+![image1]("./assets/image1.png")
+![image1]("./assets/image2.png")
+![image1]("./assets/image3.png")
+
 #### Setup for Completed project
 If you are planning to try out my <a href="https://github.com/WesCSK/SwiftUI-Google-Sign-In-with-Firebase/tree/main/Completed/FirebaseGoogleSigin">completed project</a>, do follow these additional steps before running it.
 1. Create a Firebase new project and add the GoogleService-Info to the root of your Project.
