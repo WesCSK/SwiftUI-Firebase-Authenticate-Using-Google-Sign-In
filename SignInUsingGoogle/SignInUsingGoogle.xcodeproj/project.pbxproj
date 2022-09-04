@@ -16,7 +16,6 @@
 		203073DF282D0205006F7F26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203073DE282D0205006F7F26 /* Preview Assets.xcassets */; };
 		203073E7282D023E006F7F26 /* GoogleSiginBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203073E6282D023E006F7F26 /* GoogleSiginBtn.swift */; };
 		203073EA282D02C7006F7F26 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203073E9282D02C7006F7F26 /* Home.swift */; };
-		20CE7107282D052000817D34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20CE7106282D052000817D34 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		203073DE282D0205006F7F26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		203073E6282D023E006F7F26 /* GoogleSiginBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSiginBtn.swift; sourceTree = "<group>"; };
 		203073E9282D02C7006F7F26 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		20CE7106282D052000817D34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		20CE710A282D05FE00817D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +67,6 @@
 				203073E5282D020E006F7F26 /* View */,
 				203073D7282D0204006F7F26 /* SignInUsingGoogleApp.swift */,
 				203073DB282D0205006F7F26 /* Assets.xcassets */,
-				20CE7106282D052000817D34 /* GoogleService-Info.plist */,
 				203073DD282D0205006F7F26 /* Preview Content */,
 			);
 			path = SignInUsingGoogle;
@@ -167,7 +164,6 @@
 			files = (
 				203073DF282D0205006F7F26 /* Preview Assets.xcassets in Resources */,
 				203073DC282D0205006F7F26 /* Assets.xcassets in Resources */,
-				20CE7107282D052000817D34 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +323,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.weschua.SignInUsingGoogle;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-YOUR-NAME-.SignInUsingGoogle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -357,7 +353,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.weschua.SignInUsingGoogle;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-YOUR-NAME-.SignInUsingGoogle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
