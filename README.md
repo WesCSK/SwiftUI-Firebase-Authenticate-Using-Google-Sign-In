@@ -4,10 +4,12 @@ This repo provide you with the complete setup of Firebase google sign in with Sw
 ## What will you be building
 
 You will be building the functionality to login use Goole. Below is the screen.
+<p>
+<img src="./assets/image1.png" width="32%"/>
+<img src="./assets/image2.png" width="32%"/>
+<img src="./assets/image3.png" width="32%"/>
+</p>
 
-![image1]("./assets/image1.png")
-![image1]("./assets/image2.png")
-![image1]("./assets/image3.png")
 
 #### Setup for Completed project
 If you are planning to try out my <a href="https://github.com/WesCSK/SwiftUI-Google-Sign-In-with-Firebase/tree/main/Completed/FirebaseGoogleSigin">completed project</a>, do follow these additional steps before running it.
