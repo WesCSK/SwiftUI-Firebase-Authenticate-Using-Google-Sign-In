@@ -117,6 +117,8 @@ extension View {
 
 ```
 
+### Update steps for v7.0.0 of Google Signin
+
 6. Pass the presenting view controller and client ID for your app to the Google Sign In sign-in method and create a Firebase auth credential from the resulting Google auth token:
 
 ```
