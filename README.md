@@ -1,4 +1,4 @@
-# How to setup Firebase Google Sign In with SwiftUI?
+# How to setup Firebase Google Sign In with SwiftUI? (Update for Version 7)
 This repo provide you with the complete setup of Firebase google sign in with SwiftUI as the <a href="https://firebase.google.com/docs/auth/ios/google-signin">Official Docuementation</a> step is used for UIKit as example and missed out some key steps that is required for SwiftUI implementation. You can also watch the following video on <a href="">YouTube</a> which will also provide you with step by step guide on how to step up this.
 
 ## What will you be building
@@ -124,22 +124,19 @@ guard let clientID = FirebaseApp.app()?.options.clientID else { return }
         
 let config = GIDConfiguration(clientID: clientID)
         
-GIDSignIn.sharedInstance.signIn(with: config, presenting: getRootViewController()) { user, error in
+ GIDSignIn.sharedInstance.signIn(withPresenting: view.getRootViewController()) { signResult, error in
             
     if let error = error {
-      // ...
+       ...
+       return
     }
             
-    guard
-        let authentication = user?.authentication,
-        let idToken = authentication.idToken
-    else {
-        print("DEBUG: FirebaseAuth.swift. authentication and idToken is nil")
-        return
-    }
-
-    let credential = GoogleAuthProvider.credential(withIDToken: idToken,
-                                                   accessToken: authentication.accessToken)
+     guard let user = signResult?.user,
+           let idToken = user.idToken else { return }
+     
+     let accessToken = user.accessToken
+            
+     let credential = GoogleAuthProvider.credential(withIDToken: idToken.tokenString, accessToken: accessToken.tokenString)
 
     // Use the credential to authenticate with Firebase
 
