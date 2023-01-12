@@ -125,8 +125,10 @@ extension View {
 guard let clientID = FirebaseApp.app()?.options.clientID else { return }
         
 let config = GIDConfiguration(clientID: clientID)
+
+GIDSignIn.sharedInstance.configuration = config
         
- GIDSignIn.sharedInstance.signIn(withPresenting: view.getRootViewController()) { signResult, error in
+GIDSignIn.sharedInstance.signIn(withPresenting: view.getRootViewController()) { signResult, error in
             
     if let error = error {
        ...
