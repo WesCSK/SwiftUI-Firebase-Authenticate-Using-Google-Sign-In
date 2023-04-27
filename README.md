@@ -1,4 +1,11 @@
+<a href="https://www.youtube.com/@weschua?sub_confirmation=1">
+<img src="https://drive.google.com/uc?export=view&id=1ss6g-zHckW-KFI0D3sCCp3pyCZ-bJIik">
+</a>
+
 # How to setup Firebase Google Sign In with SwiftUI? (Update for Version 7)
+
+[![](https://markdown-videos.deta.dev/youtube/M5LiqOBDeGg)](https://youtu.be/M5LiqOBDeGg)
+
 This repo provide you with the complete setup of Firebase google sign in with SwiftUI as the <a href="https://firebase.google.com/docs/auth/ios/google-signin">Official Docuementation</a> step is used for UIKit as example and missed out some key steps that is required for SwiftUI implementation. You can also watch the following video on <a href="https://www.youtube.com/watch?v=M5LiqOBDeGg">YouTube</a> which will also provide you with step by step guide on how to step up this.
 
 ## What will you be building
